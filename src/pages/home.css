@@ -30,3 +30,12 @@ html {
 .logo {
   width: 100px;
 }
+
+.icon {
+  cursor: pointer;
+}
+
+.drawer {
+  background-color: #444444;
+  color: white;
+}

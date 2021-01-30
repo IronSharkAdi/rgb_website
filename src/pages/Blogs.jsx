@@ -13,18 +13,21 @@ function Blogs() {
         <div className="blogs">
                 <h1>Lastest Blogs</h1>
                 <Grid container className="blogs__container">
-                    <Grid className="blog_1">
+                    <Grid  item className="blog_1">
                         <a href="/"><img className="logo__part" src={green}alt=""/></a>
                     </Grid>
-                    <Grid className="blog">
-                        <a href="/"><img className="logo__part" src={red} alt=""/></a>
-                    </Grid>
-                    <Grid className="blog">
-                        <a href="/"><img className="logo__part" src={white} alt=""/></a>
-                    </Grid>
-                    <Grid className="blog">
-                        <a href="/"><img className="logo__part" src={blue} alt=""/></a>
-                    </Grid>
+                    <div className="lower__logo">
+                        <Grid item  className="blog">
+                            <a href="/"><img className="logo__part" src={red} alt=""/></a>
+                        </Grid>
+                        <Grid item  className="blog">
+                            <a href="/"><img className="logo__part" src={white} alt=""/></a>
+                        </Grid>
+                        <Grid item  className="blog">
+                            <a href="/"><img className="logo__part" src={blue} alt=""/></a>
+                        </Grid>
+                    </div>
+
                 </Grid>
         </div>
     )
